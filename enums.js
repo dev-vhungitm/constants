@@ -276,6 +276,7 @@ const statuses = {
 };
 
 export const enums = {
+	textTypes,
 	imageTypes,
 	videoTypes,
 	audioTypes,
