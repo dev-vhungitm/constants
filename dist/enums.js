@@ -33,8 +33,8 @@ const textTypes = {
         type: 'text/javascript '
     },
     markdown: {
-        key: 'markdown',
-        label: 'MARKDOWN',
+        key: 'md',
+        label: 'MD',
         extension: 'md',
         type: 'text/markdown '
     },
@@ -96,13 +96,13 @@ const imageTypes = {
     },
     svg: {
         key: 'svg',
-        name: 'SVG',
+        label: 'SVG',
         extension: 'svg',
         type: 'image/svg'
     },
     icon: {
         key: 'icon',
-        name: 'ICO',
+        label: 'ICO',
         extension: 'ico',
         type: 'image/x-icon'
     }
@@ -247,27 +247,27 @@ const applicationTypes = {
 };
 const statuses = {
     finished: {
-        name: 'finished',
+        key: 'finished',
         label: 'Kết thúc',
         color: 'success'
     },
     loading: {
-        name: 'loading',
+        key: 'loading',
         label: 'Đang tải',
         color: 'warning'
     },
     inProgress: {
-        name: 'inProgress',
+        key: 'inProgress',
         label: 'Đang thực hiện',
         color: 'warning'
     },
     ready: {
-        name: 'ready',
+        key: 'ready',
         label: 'Sẵn sàng',
         color: 'processing'
     },
     removed: {
-        name: 'removed',
+        key: 'removed',
         label: 'Đã xóa',
         color: 'error'
     }
