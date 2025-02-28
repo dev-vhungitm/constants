@@ -9,7 +9,7 @@ export interface IFileType {
 	type: string;
 }
 
-const textTypes: IFileTypes = {
+const textTypes = {
 	txt: {
 		key: 'txt',
 		label: 'TXT',
@@ -60,7 +60,7 @@ const textTypes: IFileTypes = {
 	}
 };
 
-const imageTypes: IFileTypes = {
+const imageTypes = {
 	png: {
 		key: 'png',
 		label: 'PNG',
@@ -117,7 +117,7 @@ const imageTypes: IFileTypes = {
 	}
 };
 
-const videoTypes: IFileTypes = {
+const videoTypes = {
 	mp4: {
 		key: 'mp4',
 		label: 'MP4',
@@ -150,7 +150,7 @@ const videoTypes: IFileTypes = {
 	}
 };
 
-const audioTypes: IFileTypes = {
+const audioTypes = {
 	mp4: {
 		key: 'mp4',
 		label: 'MP4',
@@ -183,7 +183,7 @@ const audioTypes: IFileTypes = {
 	}
 };
 
-const applicationTypes: IFileTypes = {
+const applicationTypes = {
 	json: {
 		key: 'json',
 		label: 'JSON',
