@@ -32,7 +32,7 @@ const textTypes = {
         extension: 'js',
         type: 'text/javascript '
     },
-    markdown: {
+    md: {
         key: 'md',
         label: 'MD',
         extension: 'md',
@@ -70,7 +70,7 @@ const imageTypes = {
         extension: 'jpeg',
         type: 'image/jpeg'
     },
-    webP: {
+    webp: {
         key: 'webp',
         label: 'WEBP',
         extension: 'webp',
@@ -100,8 +100,8 @@ const imageTypes = {
         extension: 'svg',
         type: 'image/svg'
     },
-    icon: {
-        key: 'icon',
+    ico: {
+        key: 'ico',
         label: 'ICO',
         extension: 'ico',
         type: 'image/x-icon'
@@ -164,7 +164,7 @@ const audioTypes = {
         extension: 'wav',
         type: 'audio/wav'
     },
-    webpA: {
+    weba: {
         key: 'webpA',
         label: 'WEBA',
         extension: 'weba',
