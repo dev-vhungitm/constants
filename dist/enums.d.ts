@@ -261,4 +261,39 @@ export declare const enums: {
         };
     };
     statuses: IStatuses;
+    genders: {
+        male: {
+            key: string;
+            label: string;
+            id: number;
+        };
+        female: {
+            key: string;
+            label: string;
+            id: number;
+        };
+        other: {
+            key: string;
+            label: string;
+            id: number;
+        };
+    };
+    contentPositions: {
+        top: {
+            key: string;
+            label: string;
+        };
+        bottom: {
+            key: string;
+            label: string;
+        };
+        left: {
+            label: string;
+            key: string;
+        };
+        right: {
+            key: string;
+            label: string;
+        };
+    };
 };

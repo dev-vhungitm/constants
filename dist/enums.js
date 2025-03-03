@@ -272,11 +272,48 @@ const statuses = {
         color: 'error'
     }
 };
+const genders = {
+    male: {
+        key: 'male',
+        label: 'Nam',
+        id: 0
+    },
+    female: {
+        key: 'female',
+        label: 'Nữ',
+        id: 1
+    },
+    other: {
+        key: 'other',
+        label: 'Khác',
+        id: 2
+    }
+};
+const contentPositions = {
+    top: {
+        key: 'top',
+        label: 'Trên'
+    },
+    bottom: {
+        key: 'bottom',
+        label: 'Dưới'
+    },
+    left: {
+        label: 'Trái',
+        key: 'left'
+    },
+    right: {
+        key: 'right',
+        label: 'Phải'
+    }
+};
 exports.enums = {
     textTypes,
     imageTypes,
     videoTypes,
     audioTypes,
     applicationTypes,
-    statuses
+    statuses,
+    genders,
+    contentPositions
 };
