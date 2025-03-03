@@ -15,6 +15,21 @@ export interface IStatus {
 export interface IStatuses {
     [key: string]: IStatus;
 }
+export interface IGender {
+    key: string;
+    label: string;
+    id: number;
+}
+export interface IGenders {
+    [key: string]: IGender;
+}
+export interface IContentPosition {
+    key: string;
+    label: string;
+}
+export interface IContentPositions {
+    [key: string]: IContentPosition;
+}
 export declare const enums: {
     textTypes: {
         txt: {
@@ -260,7 +275,33 @@ export declare const enums: {
             type: string;
         };
     };
-    statuses: IStatuses;
+    statuses: {
+        finished: {
+            key: string;
+            label: string;
+            color: string;
+        };
+        loading: {
+            key: string;
+            label: string;
+            color: string;
+        };
+        inProgress: {
+            key: string;
+            label: string;
+            color: string;
+        };
+        ready: {
+            key: string;
+            label: string;
+            color: string;
+        };
+        removed: {
+            key: string;
+            label: string;
+            color: string;
+        };
+    };
     genders: {
         male: {
             key: string;

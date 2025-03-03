@@ -268,7 +268,7 @@ export interface IStatuses {
 	[key: string]: IStatus;
 }
 
-const statuses: IStatuses = {
+const statuses = {
 	finished: {
 		key: 'finished',
 		label: 'Kết thúc',
@@ -296,6 +296,16 @@ const statuses: IStatuses = {
 	}
 };
 
+export interface IGender {
+	key: string;
+	label: string;
+	id: number;
+}
+
+export interface IGenders {
+	[key: string]: IGender;
+}
+
 const genders = {
 	male: {
 		key: 'male',
@@ -313,6 +323,15 @@ const genders = {
 		id: 2
 	}
 };
+
+export interface IContentPosition {
+	key: string;
+	label: string;
+}
+
+export interface IContentPositions {
+	[key: string]: IContentPosition;
+}
 
 const contentPositions = {
 	top: {
