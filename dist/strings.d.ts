@@ -37,6 +37,10 @@ export declare const strings: {
         mobileImageURL: string;
         mobileHoverImage: string;
         mobileHoverImageURL: string;
+        imageHeight: string;
+        imageWidth: string;
+        mobileImageWidth: string;
+        mobileImageHeight: string;
         imageAlt: string;
         thumbnail: string;
         thumbnailURL: string;
@@ -159,6 +163,10 @@ export declare const strings: {
     hoverImage: string;
     mobileImage: string;
     mobileHoverImage: string;
+    imageWidth: string;
+    imageHeight: string;
+    mobileImageWidth: string;
+    mobileImageHeight: string;
     imageAlt: string;
     thumbnail: string;
     thumbnailAlt: string;
