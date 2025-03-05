@@ -302,6 +302,38 @@ export declare const enums: {
             color: string;
         };
     };
+    statusCodes: {
+        informational: {
+            continue: number;
+            switchingProtocols: number;
+        };
+        success: {
+            ok: number;
+            created: number;
+            accepted: number;
+            noContent: number;
+        };
+        redirection: {
+            movedPermanently: number;
+            found: number;
+            notModified: number;
+        };
+        clientError: {
+            badRequest: number;
+            unauthorized: number;
+            forbidden: number;
+            notFound: number;
+            methodNotAllowed: number;
+            conflict: number;
+        };
+        serverError: {
+            internalServerError: number;
+            notImplemented: number;
+            badGateway: number;
+            serviceUnavailable: number;
+            gatewayTimeout: number;
+        };
+    };
     genders: {
         male: {
             key: string;
