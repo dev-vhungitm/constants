@@ -11,8 +11,11 @@ export declare const strings: {
         name: string;
         displayStyle: string;
         title: string;
+        titleAs: string;
         subTitle: string;
+        subTitleAs: string;
         description: string;
+        descriptionAs: string;
         parent: string;
         parentId: string;
         isBanner: string;
@@ -28,8 +31,12 @@ export declare const strings: {
         mobileBackgroundURL: string;
         image: string;
         imageURL: string;
+        hoverImage: string;
+        hoverImageURL: string;
         mobileImage: string;
         mobileImageURL: string;
+        mobileHoverImage: string;
+        mobileHoverImageURL: string;
         imageAlt: string;
         thumbnail: string;
         thumbnailURL: string;
@@ -99,8 +106,12 @@ export declare const strings: {
     topViewPost: string;
     displayStyle: string;
     title: string;
+    titleAs: string;
+    titleAsTip: string;
     subTitle: string;
+    subTitleAs: string;
     description: string;
+    descriptionAs: string;
     comingSoon: string;
     comingSoonContent: string;
     homePage: string;
@@ -145,7 +156,9 @@ export declare const strings: {
     background: string;
     mobileBackground: string;
     image: string;
+    hoverImage: string;
     mobileImage: string;
+    mobileHoverImage: string;
     imageAlt: string;
     thumbnail: string;
     thumbnailAlt: string;
