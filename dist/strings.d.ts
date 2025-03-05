@@ -20,6 +20,8 @@ export declare const strings: {
         parentId: string;
         isBanner: string;
         slug: string;
+        padding: string;
+        mobilePadding: string;
         displayOrder: string;
         isActive: string;
         isShowInHomePage: string;
@@ -113,6 +115,8 @@ export declare const strings: {
     titleAs: string;
     titleAsTip: string;
     subTitle: string;
+    padding: string;
+    mobilePadding: string;
     subTitleAs: string;
     description: string;
     descriptionAs: string;
