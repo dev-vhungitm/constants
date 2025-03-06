@@ -173,7 +173,7 @@ exports.strings = {
     imageWidth: 'Chiều rộng ảnh',
     imageHeight: 'Chiều cao ảnh',
     mobileImageWidth: 'Chiều rộng ảnh ở mobile',
-    mobileImageHeight: 'Chiều rộng ảnh ở mobile',
+    mobileImageHeight: 'Chiều cao ảnh ở mobile',
     imageAlt: 'Alt hình ảnh',
     thumbnail: 'Thumbnail',
     thumbnailAlt: 'Thumbnail alt',
