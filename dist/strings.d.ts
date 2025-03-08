@@ -4,9 +4,14 @@ export declare const strings: {
         invalidPhone: string;
     };
     keys: {
-        sort: string;
-        token: string;
+        id: string;
         _id: string;
+        key: string;
+        system: string;
+        token: string;
+        auth: string;
+        notification: string;
+        sort: string;
         menuId: string;
         name: string;
         displayStyle: string;
@@ -94,7 +99,6 @@ export declare const strings: {
         fullPath: string;
         searchParams: string;
         postContent: string;
-        system: string;
         file: string;
         encode: string;
         decode: string;
